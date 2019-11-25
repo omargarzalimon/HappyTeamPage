@@ -12241,7 +12241,7 @@ main .main-scroll > img {
     margin: 0 auto 94px;
     -webkit-transition: opacity .3s ease;
     transition: opacity .3s ease;
-    opacity: .8;
+    opacity: .5;
   }
   .atail-brands-item a:hover {
     opacity: 1;
