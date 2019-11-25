@@ -6514,19 +6514,19 @@ textarea:focus {
 }
 
 ::-webkit-input-placeholder {
-  color: #dce5e8;
+  color: #4d4f54;
 }
 
 :-moz-placeholder {
-  color: #dce5e8;
+  color: #4d4f54;
 }
 
 ::-moz-placeholder {
-  color: #dce5e8;
+  color: #4d4f54;
 }
 
 :-ms-input-placeholder {
-  color: #dce5e8;
+  color: #4d4f54;
 }
 
 input[type="password"],
@@ -6536,6 +6536,7 @@ input[type="text"] {
   height: 45px;
   padding: 0 20px;
   margin-bottom: 19px;
+
 }
 
 .input-label label {
