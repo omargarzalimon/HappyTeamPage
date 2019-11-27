@@ -2277,8 +2277,8 @@
 	                }
 
 	                _this6.contentFooter.innerHTML = footerString;
-
-	                _this6.createShares(result.link, result.title);
+					//Comentario
+	                //_this6.createShares(result.link, result.title);
 
 	                if (_global2.default.lang) {
 	                    _global2.default.lang.classList.add('hide-lang');
