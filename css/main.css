@@ -12275,7 +12275,12 @@ main .main-scroll > img {
 .extended-row .small-title,
 .extended-row p,
 .extended-row .button {
-  color: #fff;
+  color: #FFf;
+}
+
+.extended-row .small-title,
+.extended-row .button {
+  color: #FF8000;
 }
 
 .intro-demo {

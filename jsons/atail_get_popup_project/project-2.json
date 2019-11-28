@@ -9,14 +9,9 @@
 	"participants": "<span class=\"post-content-footer-title\">Participants</span>",
 	"slides": [
 		{
-			"src": {
-				"img": "img/project-preview/Bard-bags-collection.jpeg",
-				"title": "",
-				"text": "",
-				"fit": "cover"
-			},
+			"src": "videos/AgileProject.mp4",
 			"fit": "cover",
-			"type": "image"
+			"type": "video"
 		}
 	]
 }

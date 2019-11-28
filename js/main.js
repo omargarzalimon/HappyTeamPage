@@ -2236,11 +2236,11 @@
 	                            setTimeout(function () {
 	                                iframe.setAttribute('src', item.src);
 	                            }, 2000);
-
 	                            var div = document.createElement('DIV');
 	                            div.className = 'post-slider-video-item';
 	                            // div.innerHTML = video;
-	                            div.appendChild(iframe);
+								div.appendChild(iframe);
+								
 	                            _this6.postSliderImages.appendChild(div);
 	                            _this6.fullPostSliderImages.push(div);
 	                        })();
@@ -2248,10 +2248,14 @@
 	                });
 
 	                if (_this6.fullPostSliderImages && _this6.fullPostSliderImages.length > 0) {
-	                    _this6.fullPostCurrentIndex = 0;
+						// Pruebas 
+						// _this6.fullPostCurrentIndex = 0;
+						_this6.fullPostCurrentIndex = 1;
 	                    _this6.fullPostPrevIndex = 0;
 
-	                    _this6.fullPostSliderImages[0].classList.add('active');
+
+						//Pruebas 0 por 1
+	                    _this6.fullPostSliderImages[1].classList.add('active');
 
 	                    if (_this6.fullPostSliderImages.length > 1) {
 	                        _this6.fullPostNextSlide.innerHTML = _this6.arrowTemplate;
@@ -2292,9 +2296,11 @@
 	                    _this6.fullPost.classList.add('show-post-content');
 	                    if (!_animationSupport.animationSupport) {
 	                        _this6.fullPost.classList.add('no-animating');
-	                    }
-	                }, 1000 / 60);
-	                return result;
+						}
+						console.log("Semostro12");
+					}, 1000 / 60);
+					return result;
+					
 	            }).then(function (result) {
 	                _this6.isAnimating = false;
 	                return result;
@@ -2449,7 +2455,6 @@
 	            };
 
 	            content.addEventListener(_transitionEvent.transitionEvent, contentAnimate);
-
 	            //***************************************************************************
 	            // Mobile menu
 
@@ -2586,10 +2591,9 @@
 	            var current = this.fullPostCurrentIndex;
 	            this.fullPostPrevIndex = current;
 
-	            current++;
-
+				current++;
 	            if (current >= this.fullPostSliderImages.length) {
-	                current = 0;
+					current = 0;
 	            }
 
 	            this.fullPostCurrentIndex = current;
@@ -6386,7 +6390,7 @@
 
 	    this.isInited = false;
 	    this.isMouseOver = false;
-	    this.autoplay = autoplay;
+		this.autoplay = autoplay;
 
 	    this.init(className);
 	  }
@@ -6554,8 +6558,8 @@
 	      }
 
 	      this.prevItem = this.currentItem;
-	      this.currentItem++;
-
+		  this.currentItem++;
+		  
 	      if (this.currentItem >= this.sliderItems.length) {
 	        this.currentItem = 0;
 	      }
