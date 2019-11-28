@@ -1,11 +1,17 @@
 {
 	"status": "success",
-	"title": "Agile MAZ communications",
+	"title": "Agile MAZ comm.",
 	"link": "http://template.atail.itembridge.com/projects/Hall's-magazine-cover.html",
 	"content": "Small and direct material that helps you to learn more about Agile and Scrum in a very creative and fun way and with the purpose you can review them whenever you want!",
 	"date": "<span class=\"atail-project-date\"><span class=\"atail-proj-date-text\">Finished </span><span class=\"atail-proj-date-value\">- 02 Jul 2016</span></span>",
-	"slides": null,
 	"positions": null,
 	"token": "865fc8f5ec",
-	"participants": "<span class=\"post-content-footer-title\">Participants</span>"
+	"participants": "<span class=\"post-content-footer-title\">Participants</span>",
+	"slides":[
+		{
+			"src": "videos/Comunicaciones.mp4",
+			"fit": "cover",
+			"type": "video"
+		}
+	]
 }

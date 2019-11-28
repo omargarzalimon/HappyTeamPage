@@ -1,11 +1,32 @@
 {
 	"status": "success",
-	"title": "Graphic solutions & branding",
+	"title": "Branding",
 	"link": "http://template.atail.itembridge.com/projects/Contrast-portrait-photo.html",
-	"content": "Different logos and templates that were done for different teams in the company to provide an amazing look and feel.",
+	"content": "Different logos and applications of the corporative image for different teams in the company to provide an amazing look and feel.",
 	"date": "<span class=\"atail-project-date\"><span class=\"atail-proj-date-text\">Finished </span><span class=\"atail-proj-date-value\">- 02 Jul 2016</span></span>",
-	"slides": null,
 	"positions": null,
 	"token": "865fc8f5ec",
-	"participants": "<span class=\"post-content-footer-title\">Participants</span>"
+	"participants": "<span class=\"post-content-footer-title\">Participants</span>",
+	"slides": [
+		{
+			"src": {
+				"img": "img/project-preview/BrandingIPINA.png",
+				"title": "",
+				"text": "",
+				"fit": "cover"
+			},
+			"fit": "cover",
+			"type": "image"
+		},
+		{
+			"src": {
+				"img": "img/project-preview/BrandingMagicBox.png",
+				"title": "",
+				"text": "",
+				"fit": "cover"
+			},
+			"fit": "cover",
+			"type": "image"
+		}
+	]
 }

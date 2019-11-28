@@ -4,8 +4,39 @@
 	"link": "http://template.atail.itembridge.com/projects/Male-jeans-photoset.html",
 	"content": "Re-designed of the full 500 slide presentation that is used for the trainings of Scrum Master and Product Owner provided by Scrum Inc.\r\n",
 	"date": "<span class=\"atail-project-date\"><span class=\"atail-proj-date-text\">Finished </span><span class=\"atail-proj-date-value\">- 22 Jun 2016</span></span>",
-	"slides": null,
 	"positions": null,
 	"token": "865fc8f5ec",
-	"participants": "<span class=\"post-content-footer-title\">Participants</span>"
+	"participants": "<span class=\"post-content-footer-title\">Participants</span>",
+	"slides": [
+		{
+			"src": {
+				"img": "img/project-preview/ScrumincImg1.png",
+				"title": "",
+				"text": "",
+				"fit": "cover"
+			},
+			"fit": "cover",
+			"type": "image"
+		},
+		{
+			"src": {
+				"img": "img/project-preview/ScrumincImg2.png",
+				"title": "",
+				"text": "",
+				"fit": "cover"
+			},
+			"fit": "cover",
+			"type": "image"
+		},
+		{
+			"src": {
+				"img": "img/project-preview/ScrumincImg3.png",
+				"title": "",
+				"text": "",
+				"fit": "cover"
+			},
+			"fit": "cover",
+			"type": "image"
+		}
+	]
 }
